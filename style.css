@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    min-height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: lightyellow;
+    text-align: center;
+}
+.accordian-container{
+    max-width:500px;
+    width:450px;
+    border:2px solid black;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 7px;
+}
+.accordian-container header{
+    margin:10px 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: ghostwhite;
+}
+.question{
+    text-transform: capitalize;
+    font-size: 2rem;
+
+}
+.none{
+    display: none;
+}
